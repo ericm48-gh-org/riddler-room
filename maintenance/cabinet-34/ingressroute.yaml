@@ -6,7 +6,7 @@ spec:
   entryPoints:
     - websecure
   routes:
-    - match: Host(`riddler.rycr.io`) && PathPrefix(`/r/SQsV9Wi0iHpB`)
+    - match: Host(`riddler.rycr.io`) && PathPrefix(`/r/pKT7Kl6zPVYB`)
       kind: Rule
       services:
         - name: funhouse-room-room6
@@ -23,4 +23,4 @@ metadata:
 spec:
   stripPrefix:
     prefixes:
-      - /r/SQsV9Wi0iHpB
+      - /r/pKT7Kl6zPVYB
